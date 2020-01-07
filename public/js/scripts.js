@@ -3,6 +3,8 @@ const search = document.querySelector('input')
 const printMsg1 = document.querySelector('#printMsg1')
 const printMsg2 = document.querySelector('#printMsg2')
 
+console.log('git checking message')
+
 weatherForm.addEventListener('submit', (e) => {
 
     printMsg1.textContent = 'Loading...'
