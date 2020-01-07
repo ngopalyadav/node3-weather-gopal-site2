@@ -12,7 +12,7 @@ weatherForm.addEventListener('submit', (e) => {
     
     e.preventDefault()
     
-    const searchQString =  'http://localhost:3000/weather?search='+search.value
+    const searchQString =  '/weather?search='+search.value
     fetch(searchQString).then((response) => {
     response.json().then((data) => {
 
